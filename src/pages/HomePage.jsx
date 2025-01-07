@@ -1,5 +1,6 @@
 import React from 'react'
 import PokemonList from '../components/PokemonList'
+import FilterBar from '../components/FilterBar';
 
 const HomePage = () => {
   return (
@@ -24,6 +25,7 @@ const HomePage = () => {
         </div>
       </div>
       <PokemonList/>
+      <FilterBar/>
     </>
 
   );
