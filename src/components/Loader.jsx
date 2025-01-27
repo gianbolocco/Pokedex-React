@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import { quantum } from 'ldrs';
 
 const Loader = () => {
-  return (
-    <div>Loader</div>
-  )
-}
+  useEffect(() => {
+    quantum.register();
+  }, []);
 
-export default Loader
+  return (
+    <div className="loader-container">
+      <l-quantum size="45" speed="1.75" color="blue"></l-quantum>
+    </div>
+  );
+};
+
+export default Loader;

@@ -62,7 +62,7 @@ const PokemonProvider = ({children}) => {
 
     // get pokemon por id
 
-    const getPokemonById = async () => {
+    const getPokemonById = async (id) => {
 
         const res = await fetch(`${baseURL}pokemon/${id}`)
         const data = await res.json()
