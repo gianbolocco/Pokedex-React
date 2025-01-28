@@ -52,19 +52,19 @@ const PokemonPage = () => {
 						</div>
 						<div className='info-pokemon'>
 							<div className='group-info'>
-								<p>Altura</p>
-								<span>{pokemon.height}</span>
+								<p>Height</p>
+								<span>{pokemon.height} in</span>
 							</div>
 							<div className='group-info'>
-								<p>Peso</p>
-								<span>{pokemon.weight}KG</span>
+								<p>Weight</p>
+								<span>{pokemon.weight} lb</span>
 							</div>
 						</div>
 					</div>
 				</div>
 
 				<div className='container-stats'>
-					<h1>Estadísticas</h1>
+					<h1>Stats</h1>
 					<div className='stats'>
 						<div className='stat-group'>
 							<span>Hp</span>

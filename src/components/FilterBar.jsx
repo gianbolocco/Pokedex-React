@@ -4,174 +4,174 @@ import { PokemonContext } from '../context/PokemonContext'
 const FilterBar = () => {
 
 
-    const {active} = useContext(PokemonContext)
+    const {active, handleCheckbox} = useContext(PokemonContext)
 
   return (
     <div className={`container-filters ${active ? 'active': ''}`}>
         <div className="filter-by-type">
-            <span>Tipo</span>
+            <span>Type</span>
 
             <div className='group-type'>
 					<input
 						type='checkbox'
-						//onChange={handleCheckbox}
+						onChange={handleCheckbox}
 						name='grass'
 						id='grass'
 					/>
-					<label htmlFor='grass'>Planta</label>
+					<label htmlFor='grass'>grass</label>
             </div>
             <div className='group-type'>
                 <input
                     type='checkbox'
-                    //onChange={handleCheckbox}
+                    onChange={handleCheckbox}
                     name='fire'
                     id='fire'
                 />
-                <label htmlFor='fire'>Fuego</label>
+                <label htmlFor='fire'>fire</label>
             </div>
             <div className='group-type'>
                 <input
                     type='checkbox'
-                    //onChange={handleCheckbox}
+                    onChange={handleCheckbox}
                     name='bug'
                     id='bug'
                 />
-                <label htmlFor='bug'>Bicho</label>
+                <label htmlFor='bug'>bug</label>
             </div>
             <div className='group-type'>
                 <input
                     type='checkbox'
-                    //onChange={handleCheckbox}
+                    onChange={handleCheckbox}
                     name='fairy'
                     id='fairy'
                 />
-                <label htmlFor='fairy'>Hada</label>
+                <label htmlFor='fairy'>fairy</label>
             </div>
             <div className='group-type'>
                 <input
                     type='checkbox'
-                    //onChange={handleCheckbox}
+                    onChange={handleCheckbox}
                     name='dragon'
                     id='dragon'
                 />
-                <label htmlFor='dragon'>Dragón</label>
+                <label htmlFor='dragon'>dragon</label>
             </div>
             <div className='group-type'>
                 <input
                     type='checkbox'
-                    //onChange={handleCheckbox}
+                    onChange={handleCheckbox}
                     name='shadow'
                     id='shadow'
                 />
-                <label htmlFor='shadow'>Fantasma</label>
+                <label htmlFor='shadow'>shadow</label>
             </div>
             <div className='group-type'>
                 <input
                     type='checkbox'
-                    //onChange={handleCheckbox}
+                    onChange={handleCheckbox}
                     name='ground'
                     id='ground'
                 />
-                <label htmlFor='ground'>Tierra</label>
+                <label htmlFor='ground'>ground</label>
             </div>
             <div className='group-type'>
                 <input
                     type='checkbox'
-                    //onChange={handleCheckbox}
+                    onChange={handleCheckbox}
                     name='normal'
                     id='normal'
                 />
-                <label htmlFor='normal'>Normal</label>
+                <label htmlFor='normal'>normal</label>
             </div>
             <div className='group-type'>
                 <input
                     type='checkbox'
-                    //onChange={handleCheckbox}
+                    onChange={handleCheckbox}
                     name='psychic'
                     id='psychic'
                 />
-                <label htmlFor='psychic'>Psíquico</label>
+                <label htmlFor='psychic'>psychic</label>
             </div>
             <div className='group-type'>
                 <input
                     type='checkbox'
-                    //onChange={handleCheckbox}
+                    onChange={handleCheckbox}
                     name='steel'
                     id='steel'
                 />
-                <label htmlFor='steel'>Acero</label>
+                <label htmlFor='steel'>steel</label>
             </div>
             <div className='group-type'>
                 <input
                     type='checkbox'
-                    //onChange={handleCheckbox}
+                    onChange={handleCheckbox}
                     name='dark'
                     id='dark'
                 />
-                <label htmlFor='dark'>Siniestro</label>
+                <label htmlFor='dark'>dark</label>
             </div>
             <div className='group-type'>
                 <input
                     type='checkbox'
-                    //onChange={handleCheckbox}
+                    onChange={handleCheckbox}
                     name='electric'
                     id='electric'
                 />
-                <label htmlFor='electric'>Eléctrico</label>
+                <label htmlFor='electric'>electric</label>
             </div>
             <div className='group-type'>
                 <input
                     type='checkbox'
-                    //nChange={handleCheckbox}
+                    onChange={handleCheckbox}
                     name='fighting'
                     id='fighting'
                 />
-                <label htmlFor='fighting'>Lucha</label>
+                <label htmlFor='fighting'>fighting</label>
             </div>
             <div className='group-type'>
                 <input
                     type='checkbox'
-                    //onChange={handleCheckbox}
+                    onChange={handleCheckbox}
                     name='flying'
                     id='flying'
                 />
-                <label htmlFor='flying'>Volador</label>
+                <label htmlFor='flying'>flying</label>
             </div>
             <div className='group-type'>
                 <input
                     type='checkbox'
-                    //onChange={handleCheckbox}
+                    onChange={handleCheckbox}
                     name='ice'
                     id='ice'
                 />
-                <label htmlFor='ice'>Hielo</label>
+                <label htmlFor='ice'>ice</label>
             </div>
             <div className='group-type'>
                 <input
                     type='checkbox'
-                    //onChange={handleCheckbox}
+                    onChange={handleCheckbox}
                     name='poison'
                     id='poison'
                 />
-                <label htmlFor='poison'>Veneno</label>
+                <label htmlFor='poison'>poison</label>
             </div>
             <div className='group-type'>
                 <input
                     type='checkbox'
-                    //onChange={handleCheckbox}
+                    onChange={handleCheckbox}
                     name='rock'
                     id='rock'
                 />
-                <label htmlFor='rock'>Roca</label>
+                <label htmlFor='rock'>rock</label>
             </div>
             <div className='group-type'>
                 <input
                     type='checkbox'
-                    //onChange={handleCheckbox}
+                    onChange={handleCheckbox}
                     name='water'
                     id='water'
                 />
-                <label htmlFor='water'>Agua</label>
+                <label htmlFor='water'>water</label>
             </div>
         </div>
     </div>

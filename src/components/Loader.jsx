@@ -7,7 +7,7 @@ const Loader = () => {
   }, []);
 
   return (
-    <div className="loader-container">
+    <div className="container-loader">
       <l-quantum size="45" speed="1.75" color="blue"></l-quantum>
     </div>
   );

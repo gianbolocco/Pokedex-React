@@ -14,7 +14,7 @@ const SearchPage = () => {
   return (
     //<div>search</div>
     <div className='container'>
-      <p className="p-search"> Se encontraron <span>{filteredPokemons.length}</span> resultados: </p>
+      <p className="p-search"><span>{filteredPokemons.length}</span> results: </p>
       <div className='card-list-pokemon container'>
         {filteredPokemons.map(pokemon => <CardPokemon pokemon={pokemon} key={pokemon.id}></CardPokemon>)}
       </div>

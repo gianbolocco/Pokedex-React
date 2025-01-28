@@ -57,7 +57,7 @@ const Navigation = () => {
                     />
                 </div>
 
-                <button className='btn-search'>Buscar</button>
+                <button className='btn-search'>Search</button>
             </form>
         </header>
 
